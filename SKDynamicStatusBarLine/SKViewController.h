@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SKDynamicStatusBarLineView.h"
 
 @interface SKViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) SKDynamicStatusBarLineView *dynamicStatusBarLineView;
 
 @end

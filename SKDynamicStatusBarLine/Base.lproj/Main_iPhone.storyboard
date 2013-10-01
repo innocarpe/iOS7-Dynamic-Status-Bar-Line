@@ -20,8 +20,19 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </scrollView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll up and down!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTk-i6-gdm">
+                                <rect key="frame" x="83" y="274" width="154" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CTk-i6-gdm" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="KZg-FT-jFy"/>
+                            <constraint firstItem="CTk-i6-gdm" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="kKA-Bj-p5g"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="SLz-GU-TTa" id="28v-Fl-Um9"/>

@@ -22,6 +22,7 @@
 		7E56B4CB17FA5A3B00B677E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E56B4AA17FA5A3A00B677E6 /* UIKit.framework */; };
 		7E56B4D317FA5A3B00B677E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E56B4D117FA5A3B00B677E6 /* InfoPlist.strings */; };
 		7E56B4D517FA5A3B00B677E6 /* SKDynamicStatusBarLineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56B4D417FA5A3B00B677E6 /* SKDynamicStatusBarLineTests.m */; };
+		7E56B4E017FA61D200B677E6 /* SKDynamicStatusBarLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E56B4DF17FA61D200B677E6 /* SKDynamicStatusBarLineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		7E56B4D017FA5A3B00B677E6 /* SKDynamicStatusBarLineTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SKDynamicStatusBarLineTests-Info.plist"; sourceTree = "<group>"; };
 		7E56B4D217FA5A3B00B677E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E56B4D417FA5A3B00B677E6 /* SKDynamicStatusBarLineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDynamicStatusBarLineTests.m; sourceTree = "<group>"; };
+		7E56B4DE17FA61D200B677E6 /* SKDynamicStatusBarLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDynamicStatusBarLineView.h; sourceTree = "<group>"; };
+		7E56B4DF17FA61D200B677E6 /* SKDynamicStatusBarLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDynamicStatusBarLineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				7E56B4BB17FA5A3B00B677E6 /* Main_iPad.storyboard */,
 				7E56B4BE17FA5A3B00B677E6 /* SKViewController.h */,
 				7E56B4BF17FA5A3B00B677E6 /* SKViewController.m */,
+				7E56B4DE17FA61D200B677E6 /* SKDynamicStatusBarLineView.h */,
+				7E56B4DF17FA61D200B677E6 /* SKDynamicStatusBarLineView.m */,
 				7E56B4C117FA5A3B00B677E6 /* Images.xcassets */,
 				7E56B4AD17FA5A3A00B677E6 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				7E56B4B717FA5A3B00B677E6 /* SKAppDelegate.m in Sources */,
 				7E56B4C017FA5A3B00B677E6 /* SKViewController.m in Sources */,
+				7E56B4E017FA61D200B677E6 /* SKDynamicStatusBarLineView.m in Sources */,
 				7E56B4B317FA5A3B00B677E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
