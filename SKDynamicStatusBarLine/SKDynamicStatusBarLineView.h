@@ -10,6 +10,8 @@
 
 @interface SKDynamicStatusBarLineView : UIView <UIScrollViewDelegate>
 
+@property (nonatomic) BOOL isEnabled;
+
 - (id)initWithScrollView:(UIScrollView *)scrollView;
 
 @end
